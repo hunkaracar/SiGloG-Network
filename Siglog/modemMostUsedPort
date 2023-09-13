@@ -1,0 +1,14 @@
+
+1.Http(Port 80)
+2.Https(Port 443)
+3.DNS(Port 53)
+4.FTP(Port 21)
+5.SSH(Port 22)
+6.Telnet(Port 23)
+7.RDP(Port 3389)
+8.SMTP(Port 25)
+9.POP3(110)
+10.IMAP(Port 143)
+11.IPP(Internet Printting Protocol)(Port 631 default)
+12.SMB(POrt 139,445)
+

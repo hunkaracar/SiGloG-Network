@@ -37,3 +37,23 @@ To use SiGloG, you can utilize the provided options and commands. For more detai
 ## License
 
 This software is open-source and is subject to the license terms specified under [LICENSE](LICENSE).
+
+
+## Installation
+
+To install SiGloG, follow these steps:
+
+1. Download the SiGloG source code from the [GitHub repository](https://github.com/hunkaracar).
+
+2. Navigate to the directory where you downloaded the source code using the terminal:
+
+3. Compile SiGloG using the following command:
+
+cd [Siglog]
+gcc -o siglog siglog.c -lpcap -lcurl -g
+
+./siglog -h or siglog --help
+
+This command will display the SiGloG help menu with usage instructions.
+
+You are now ready to use SiGloG!

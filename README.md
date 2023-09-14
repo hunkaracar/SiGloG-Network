@@ -51,11 +51,11 @@ To install SiGloG, follow these steps:
 
 #############################################
 
-cd [Siglog]
+cd Siglog
 
 gcc -o siglog siglog.c -lpcap -lcurl -g
 
-./siglog -h or siglog --help
+./siglog -h or ./siglog --help
 
 ############################################
 

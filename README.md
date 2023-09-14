@@ -48,7 +48,9 @@ To install SiGloG, follow these steps:
 2. Navigate to the directory where you downloaded the source code using the terminal:
 
 3. Compile SiGloG using the following command:
+
 #############################################
+
 cd [Siglog]
 
 gcc -o siglog siglog.c -lpcap -lcurl -g
@@ -56,6 +58,7 @@ gcc -o siglog siglog.c -lpcap -lcurl -g
 ./siglog -h or siglog --help
 
 ############################################
+
 This command will display the SiGloG help menu with usage instructions.
 
 You are now ready to use SiGloG!

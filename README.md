@@ -49,7 +49,7 @@ To install SiGloG, follow these steps:
 
 3. **Compile SiGloG using the following command:**
 
-## Get Error!!
+## Get Error!!(loader.sh File)
 
 **If you get an error while running loader.sh, here are the steps you need to follow:**
 

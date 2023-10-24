@@ -1,4 +1,6 @@
 
+##Most used Modem and Router Ports##
+
 1.Http(Port 80)
 2.Https(Port 443)
 3.DNS(Port 53)
@@ -10,8 +12,11 @@
 9.POP3(110)
 10.IMAP(Port 143)
 11.IPP(Internet Printting Protocol)(Port 631 default)
-12.SMB(POrt 139,445)
+12.SMB(Port 139,445)
 13.Ipcam(Port 8000)
 14.Sd(Port 9000)
 15.Universal Plug and Play (UPNP)(Port 5000)
+16.Bandwith-Test(Port 2000)
+17.DHCP(Port 67,68)
+18.Http-Proxy(Port 8080)
 

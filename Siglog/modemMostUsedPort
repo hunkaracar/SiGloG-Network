@@ -11,4 +11,7 @@
 10.IMAP(Port 143)
 11.IPP(Internet Printting Protocol)(Port 631 default)
 12.SMB(POrt 139,445)
+13.Ipcam(Port 8000)
+14.Sd(Port 9000)
+15.Universal Plug and Play (UPNP)(Port 5000)
 

@@ -8,7 +8,7 @@ void attempt_init(const char *target_url) {
 	
 	time_t now;
     struct tm *local_time;
-    char time_str[100];
+    char time_str[200];
 
     now = time(NULL);
     local_time = localtime(&now);
@@ -28,7 +28,7 @@ void attempt_init(const char *target_url) {
 
 void bruteForce_attack(const char *target_url, const char *data_form, const char *error_str) {
 	
-	char command[256];
+	char command[320];
 	
 	//command and arguments combining
 	snprintf(command, sizeof(command), "python3 loginBruteForce.py \"%s\" \"%s\" \"%s\"", target_url, data_form, error_str);

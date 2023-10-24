@@ -4,7 +4,7 @@
 
 void print_document(){
 	 
-	 printf("\nSiGloG 1.I Software Dev.Inc.\n");
+     printf("\nSiGloG 1.I Software Dev.Inc.\n");
      printf("\nDetailed help documentation:\n");
      printf("\tsiglog -h\n");
      printf("\tsiglog --help\n");

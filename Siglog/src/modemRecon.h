@@ -14,7 +14,7 @@ void port_scan(const char *target_ip_address) {
 	
     printf("Starting SiGloG 1.I (Software Dev. Inc.) at today (Against-Device)\n");
     sleep(1);
-    printf("Scanning %s [16 ports](most used Modem ports)\n",target_ip_address);
+    printf("Scanning %s [20 ports](most used Modem ports)\n",target_ip_address);
     printf("Trying to discover ports\n");
     printf("TRying...\n");
     printf("TRying...\n");
@@ -30,12 +30,12 @@ void port_scan(const char *target_ip_address) {
     
     int ports[] = {
         21, 22, 23, 25, 53, 67, 68, 80,
-        110, 139, 143, 443, 445, 631, 3389,8080
+        110, 139, 143, 443, 445, 631, 2000, 3389, 5000 , 8000, 8080, 9876
     };
 
     const char *protocolPorts[] = {
         "Ftp", "Ssh", "Telnet", "SMTP", "DNS", "DHCP", "DHCP",
-        "Http", "POP3", "SMB", "IMAP", "Https", "SMB", "IPP", "RDP","Http-Proxy"
+        "Http", "POP3", "SMB", "IMAP", "Https", "SMB", "IPP", "Bandwith-Test(?)", "RDP", "Universal Plug and Play (UPNP)", "Ipcam(?)" , "Http-Proxy", "sd(?)"
     };
 
     // Create socket
@@ -307,7 +307,7 @@ void Http_title(const char *target_ip) {
     CURL *curl;
     CURLcode res;
     
-    char url[256];
+    char url[300];
     
     snprintf(url, sizeof(url), "http://%s", target_ip);
 

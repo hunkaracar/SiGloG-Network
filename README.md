@@ -51,13 +51,13 @@ To install SiGloG, follow these steps:
 
 ## Get Error!!
 
-If you get an error while running loader.sh, here are the steps you need to follow:
+**If you get an error while running loader.sh, here are the steps you need to follow:**
 
-1.sudo apt-get install dos2unix
+1.**sudo apt-get install dos2unix**
 
-2.dos2unix loader.sh (converting to unix file format because it is loaded from Windows)
+2.**dos2unix loader.sh (converting to unix file format because it is loaded from Windows)**
 
-3../loader.sh
+3..**/loader.sh**
 
 #############################################
 

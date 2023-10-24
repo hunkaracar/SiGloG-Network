@@ -43,11 +43,21 @@ This software is open-source and is subject to the license terms specified under
 
 To install SiGloG, follow these steps:
 
-1. Download the SiGloG source code from the [GitHub repository](https://github.com/hunkaracar).
+1. **Download the SiGloG source code from the [GitHub repository](https://github.com/hunkaracar).**
 
-2. Navigate to the directory where you downloaded the source code using the terminal:
+2. **Navigate to the directory where you downloaded the source code using the terminal:**
 
-3. Compile SiGloG using the following command:
+3. **Compile SiGloG using the following command:**
+
+## Get Error!!
+
+If you get an error while running loader.sh, here are the steps you need to follow:
+
+1.sudo apt-get install dos2unix
+
+2.dos2unix loader.sh (converting to unix file format because it is loaded from Windows)
+
+3../loader.sh
 
 #############################################
 

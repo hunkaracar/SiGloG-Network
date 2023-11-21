@@ -33,19 +33,19 @@ def login_bruteForce(target_url, data, error_str):
             
             # Yanıt kontrol noktası
             if error_str not in str(response_data.content) and any(msg in str(response_data.content) for msg in response_success_messages):
-                print(f"\033[1;37m[ATTEMPT] Login Success - username '{username}' - password '{password}' {count} of 45 [Found]\033[0m\n")
+                print(f"\033[1;37m[ATTEMPT] Login Success - username '{username}' - password '{password}' {count} of 47 [Found]\033[0m\n")
                 print("1 of 1 target successfully completed, 1 valid password found")
                 now = datetime.now()
                 print(f"SiGloG (https://github.com/hunkaracar) finished at {now}")
                 sys.exit(0)
                 
             else:
-                print(f"[ATTEMPT] Login Failed - username '{username}' - password: '{password}' {count} of 45 [trying]")
+                print(f"[ATTEMPT] Login Failed - username '{username}' - password: '{password}' {count} of 47 [trying]")
                 time.sleep(1)
                 
         now2 = datetime.now()
         print(f"\nThe attack on the login page has been completed [{target_url}]")       
-        print("45 password attempts were made and were not successful [45 Trying]")
+        print("47 password attempts were made and were not successful [47 Trying]")
         print(f"SiGloG (https://github.com/hunkaracar) finished at {now2}")
         
                

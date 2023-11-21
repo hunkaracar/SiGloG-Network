@@ -6,6 +6,8 @@ admin:1234
 admin:smcadmin
 admin:superonline
 admin:turktelekom
+admin:turktelecom
+admin:turkcell
 admin:switch
 admin:1111
 admin:22222

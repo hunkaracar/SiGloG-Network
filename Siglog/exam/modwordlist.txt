@@ -1,11 +1,13 @@
 :admin
-admin:admin
-admin:password
 admin:
+admin:password
+admin:admin
 admin:1234
 admin:smcadmin
 admin:superonline
 admin:turktelekom
+admin:turktelecom
+admin:turkcell
 admin:switch
 admin:1111
 admin:22222
@@ -39,4 +41,7 @@ Vtech:Vtech
 support:support
 ADMINISTRATOR:ADMINISTRATOR
 administrator:administrator
-nau:nau
+root:alpine
+admin:Michelangelo
+telco:telco
+sitecom:admin

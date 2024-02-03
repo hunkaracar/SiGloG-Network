@@ -34,7 +34,7 @@ void port_scan(const char *target_ip_address) {
     };
 
     const char *protocolPorts[] = {
-        "Ftp", "Ssh", "Telnet", "SMTP", "DNS", "DHCP", "DHCP",
+        "Ftp/tcpwrapped", "Ssh", "Telnet", "SMTP", "DNS", "DHCP", "DHCP",
         "Http", "POP3", "Netbios", "IMAP", "Https", "SMB", "IPP", "Bandwith-Test(?)", "RDP", "Universal Plug and Play (UPNP)", "Ipcam(?)" , "Http-Proxy", "sd(?)"
     };
 

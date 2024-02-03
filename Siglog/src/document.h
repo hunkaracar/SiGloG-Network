@@ -14,6 +14,6 @@ void print_document(){
      printf("\tsiglog -RA <pcap_file:path>\n");
      printf("\tsiglog --scan=modem <modem:ip>\n");
      printf("\tsiglog --sniff-python <interface>\n");
-     printf("\t./siglog --host 'http://10.0.2.5/dvwa/login.php' --http-post '{\\\"username\\\": \\\"username\\\", \\\"password\\\": \\\"password\\\", \\\"Login\\\": \\\"Login\\\"}' -E 'Login failed'\n");
+     printf("\t./siglog --host http://10.0.2.5/dvwa/login.php --http-post '{\\\"username\\\": \\\"username\\\", \\\"password\\\": \\\"password\\\", \\\"Login\\\": \\\"Login\\\"}' -E 'Login failed'\n");
      printf("\tsiglog --docut\n\n");
 }

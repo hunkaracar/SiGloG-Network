@@ -4,14 +4,12 @@ import time
 from datetime import datetime
 import json
 
-
 def login_bruteForce(target_url, data, error_str):
     
     try:
         # Wordlist'ten verileri oku
         with open("modwordlist.txt", "r") as file:
-            lines = file.readlines()
-            
+            lines = file.readlines()            
             
         # POST ve form bilgilerini hazırla
         count = 0
@@ -27,8 +25,7 @@ def login_bruteForce(target_url, data, error_str):
             data_dict['password'] = password
 
             # POST isteği
-            response_data = requests.post(target_url, data=data_dict)
-            
+            response_data = requests.post(target_url, data=data_dict)            
             response_success_messages = ["Welcome","Login Successful", "Hoş Geldiniz", "Giriş Başarılı", "Erişim Onaylandı", "Giriş İşlemi Tamamlandı", "Başarılı Giriş"]
             
             # Yanıt kontrol noktası

@@ -3,11 +3,7 @@
 #include <unistd.h>
 #include <curl/curl.h>
 
-
-
-
 void locdet_text_print_info(const u_char *target_ip, const char *arguments ){
-	
 	
 	printf("\033[1;37m\n\nDeveloper: Hunkar Acar => (Cyber SecurITy Guard)\033[0m");
 	char fund[] = "\n_________________________________________________________";
@@ -35,17 +31,12 @@ void locdet_text_print_info(const u_char *target_ip, const char *arguments ){
 	
 	}
 
-
-
 size_t write_callback(void *contents, size_t size, size_t nmemb, void *userp){
       
       //API yanıtını al
       printf("\033[1;32m%.*s \033[0m\n\n\n", (int)(size * nmemb), (char *)contents);
       return size * nmemb;
-
 }
-
-
 
 void locadet(char *target_ip){
 	
@@ -60,8 +51,6 @@ void locadet(char *target_ip){
 	
 	//Bu kod ile curl işaretçisi başlatılıyor.
 	curl = curl_easy_init();
-	
-	
 	
 	if (curl) {
 		

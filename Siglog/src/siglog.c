@@ -12,10 +12,8 @@
 #include "document.h"
 #include "loginBruteForce.h"
 
-
 int main(int argc, char *argv[]) {
 	
-
     //char purpose[] = "This Program Signal Capture, Log analyze, Dump Network Traffic\n";
     //char purpose2[] = "And Modem(ROue) exploit target scan and Vendor Detect\n\n\n";
     
@@ -25,8 +23,7 @@ int main(int argc, char *argv[]) {
         printf("\nSiGloG 1.I Software Dev.Inc. \n");
         printf("Development: ::\\\\\\Hunkar Acar////::\n");
         printf("Github: https://github.com/hunkaracar\n\n");
-        //printf("--------------------------------------------------------------------\n");
-		
+        //printf("--------------------------------------------------------------------\n");		
 		
 		char usage[] = " \nUsage: ./siglog [OPTION] ... [Params.] ..\n\n";
 		//char try[] = "Try `siglog --help` for more options ";
@@ -56,8 +53,7 @@ int main(int argc, char *argv[]) {
         printf("Siglog Software Dev.Inc. has features such as scanning, reconnaissance, detection, analysis and attack.\n");
         
     }
-    
-	 
+    	 
 	 else if (argc < 2 || strcmp(argv[1], "-V") == 0){
 		
 		if (argc != 2){
@@ -100,7 +96,6 @@ int main(int argc, char *argv[]) {
 		sniff_python_dump(argv[2]);	 
 	   }
 	
-
     else if (argc < 3 || strcmp(argv[1], "--scan=modem") == 0){
 		
 		if (argc != 3){
@@ -116,8 +111,7 @@ int main(int argc, char *argv[]) {
 			Http_title(argv[2]);
 		}
 		
-    
-		
+    		
     else if (argc < 3 || strcmp(argv[1], "-L") == 0){
 		
 		if (argc != 3){
@@ -133,9 +127,7 @@ int main(int argc, char *argv[]) {
 		locadet(argv[2]);
 	}
 	
-	
-	
-    
+	 
     else if(argc < 4 || strcmp(argv[1], "-i") == 0 && strcmp(argv[3], "--dump") == 0){
 		
 		if (argc != 4){
@@ -165,7 +157,6 @@ int main(int argc, char *argv[]) {
     bruteForce_attack(argv[2], argv[4], argv[6]);
     
 	}
-	
 		
 	else {
 		
